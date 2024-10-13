@@ -1,5 +1,5 @@
 ---
-title: "Paper Title Number 1"
+title: "DeepVec"
 collection: publications
 category: manuscripts
 permalink: /publication/DeepVec
