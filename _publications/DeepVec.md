@@ -1,11 +1,11 @@
 ---
-title: "DeepVec"
+title: "DeepVec: State-Vector Aware Test Case Selection for Enhancing Recurrent Neural Network"
 collection: publications
 category: manuscripts
 permalink: /publication/DeepVec
-excerpt: ''
-date: 2009-10-01
-venue: 'Journal 1'
+excerpt: 'Under Review'
+date: 2024-00-00
+venue: ''
 slidesurl: ''
 paperurl: ''
 citation: ''
