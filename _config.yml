@@ -24,7 +24,7 @@ author:
   avatar           : "IMG_7042.jpeg"
   name             : "Zhonghao Jiang"
   pronouns         : # example: "she/her"  
-  bio              : ""
+  bio              : "AI4SE"
   location         : "Zhejiang China"
   employer         : "Zhejiang University"
   uri              : # URL
@@ -32,23 +32,23 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : ""
+  googlescholar    : 
   impactstory      : # URL
-  orcid            : ""
+  orcid            : 
   semantic         : # URL
-  pubmed           : ""
+  pubmed           : 
   researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "ZhonghaoJiang"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
