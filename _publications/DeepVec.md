@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/DeepVec
 excerpt: 'Under Review'
-date: 2024-00-00
+date: 2025-12-31
 venue: ''
 slidesurl: ''
 paperurl: ''
