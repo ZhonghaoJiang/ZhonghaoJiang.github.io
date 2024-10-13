@@ -1,5 +1,5 @@
 ---
-title: DFEPT: Data Flow Embedding for Enhancing Pre-Trained Model-Based Vulnerability Detection
+title: "DFEPT: Data Flow Embedding for Enhancing Pre-Trained Model-Based Vulnerability Detection"
 collection: publications
 category: conferences
 permalink: /publication/DFEPT
