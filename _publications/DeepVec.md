@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/DeepVec
 excerpt: 'Under Review'
 date: 2050-01-01
-venue: ''
+venue: 'xxx'
 slidesurl: ''
 paperurl: ''
 citation: ''
