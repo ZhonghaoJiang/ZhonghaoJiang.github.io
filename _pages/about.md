@@ -14,6 +14,10 @@ I am very fortunate to be advised by **_Distinguished Research Fellow_** _Zhongx
 
 
 
+Education
+======
+* Ph.D in Computer Science and Technology, Zhejiang University, 2030(expected)
+* B.S. in Software Engineering, Chongqing University, 2025
 
 
 
