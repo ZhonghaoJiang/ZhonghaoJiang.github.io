@@ -6,10 +6,6 @@ redirect_from:
   - /pub/
   - /pub.html/
 ---
-* <span style="color:#0b5394;">**[Preprint]**</span> 
-  **CoSIL: Software Issue Localization via LLM-Driven Code Repository Graph Searching** \
-  <u>Zhonghao Jiang</u>, Xiaoxue Ren, Meng Yan, Wei Jiang, Yong Li, Zhongxin Liu \
-  [[PDF]](https://arxiv.org/abs/2503.22424) [[Code]](https://github.com/ZhonghaoJiang/CoSIL)
 
 
 * <span style="color:#0b5394;">**[Internetware'24]**</span>
