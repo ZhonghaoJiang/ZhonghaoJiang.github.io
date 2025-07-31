@@ -7,6 +7,11 @@ redirect_from:
   - /pub.html/
 ---
 * <span style="color:#0b5394;">**[Preprint]**</span>
+  **NoCode-bench: A Benchmark for Evaluating Natural Language-Driven Feature Addition** \
+  Le Deng*, <u>Zhonghao Jiang*</u>, Jialun Cao, Michael Pradel, Zhongxin Liu \
+  [[PDF]](https://arxiv.org/pdf/2507.18130) [[Code]](https://github.com/NoCode-bench/NoCode-bench) [[Leaderboard]](https://nocodebench.org/)
+
+* <span style="color:#0b5394;">**[Preprint]**</span>
   **CoSIL: Software Issue Localization via LLM-Driven Code Repository Graph Searching** \
   <u>Zhonghao Jiang</u>, Xiaoxue Ren, Meng Yan, Wei Jiang, Yong Li, Zhongxin Liu \
   [[PDF]](https://arxiv.org/abs/2503.22424) [[Code]](https://github.com/ZhonghaoJiang/CoSIL)
