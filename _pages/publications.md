@@ -6,6 +6,8 @@ redirect_from:
   - /pub/
   - /pub.html/
 ---
+<div style="color:#bfc398;">* means equal contribution.</div>
+
 * <span style="color:#0b5394;">**[Preprint]**</span>
   **NoCode-bench: A Benchmark for Evaluating Natural Language-Driven Feature Addition** \
   Le Deng*, <u>Zhonghao Jiang*</u>, Jialun Cao, Michael Pradel, Zhongxin Liu \
