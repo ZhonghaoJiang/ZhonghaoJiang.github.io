@@ -21,6 +21,7 @@ redirect_from:
 * <span style="color:#0b5394;">**[TSE'25]**</span>
   **DeepVec: State-Vector Aware Test Case Selection for Enhancing Recurrent Neural Network** \
   <u>Zhonghao Jiang</u>, Meng Yan, Li Huang, Weifeng Sun, Chao Liu, Song Sun, David Lo \
+  IEEE Transactions on Software Engineering (TSE) \
   [[PDF]](https://ieeexplore.ieee.org/document/10979368) [[Code]](https://github.com/ZhonghaoJiang/DeepVec)
 
 * <span style="color:#0b5394;">**[Internetware'24]**</span>
