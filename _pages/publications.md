@@ -17,7 +17,7 @@ redirect_from:
   **Issue Localization via LLM-Driven Iterative Code Graph Searching** \
   <u>Zhonghao Jiang</u>, Xiaoxue Ren, Meng Yan, Wei Jiang, Yong Li, Zhongxin Liu \
   The 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025) \
-  <span style="font-size:10px;">🌟ArXiv Preprint: CoSIL: Software Issue Localization via LLM-Driven Code Repository Graph Searching</span> \
+  <span style="font-size:12px;">🌟ArXiv Preprint: CoSIL: Software Issue Localization via LLM-Driven Code Repository Graph Searching</span> \
   [[PDF]](https://arxiv.org/abs/2503.22424) [[Code]](https://github.com/ZhonghaoJiang/CoSIL)
 
 * <span style="color:#0b5394;">**[TSE'25]**</span>
