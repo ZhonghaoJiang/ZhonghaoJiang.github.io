@@ -13,9 +13,11 @@ redirect_from:
   Le Deng*, <u>Zhonghao Jiang*</u>, Jialun Cao, Michael Pradel, Zhongxin Liu \
   [[PDF]](https://arxiv.org/pdf/2507.18130) [[Code]](https://github.com/NoCode-bench/NoCode-bench) [[Leaderboard]](https://nocodebench.org/)
 
-* <span style="color:#0b5394;">**[Preprint]**</span>
-  **CoSIL: Software Issue Localization via LLM-Driven Code Repository Graph Searching** \
+* <span style="color:#0b5394;">**[ASE'25]**</span>
+  **Issue Localization via LLM-Driven Iterative Code Graph Searching** \
   <u>Zhonghao Jiang</u>, Xiaoxue Ren, Meng Yan, Wei Jiang, Yong Li, Zhongxin Liu \
+  The 40th IEEE/ACM International Conference on Automated Software Engineering (ASE 2025) \
+  <span style="font-size:10px;">🌟ArXiv Preprint: CoSIL: Software Issue Localization via LLM-Driven Code Repository Graph Searching</span> \
   [[PDF]](https://arxiv.org/abs/2503.22424) [[Code]](https://github.com/ZhonghaoJiang/CoSIL)
 
 * <span style="color:#0b5394;">**[TSE'25]**</span>
