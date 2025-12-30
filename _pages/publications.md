@@ -8,6 +8,12 @@ redirect_from:
 ---
 <div style="color:#bfc398;">* means equal contribution.</div>
 
+* 📌 <span style="color:#0b5394;">**[Preprint]**</span>
+  **Agentic Software Issue Resolution with Large Language Models: A Survey** \
+  <u>Zhonghao Jiang</u>, David Lo, Zhongxin Liu \
+  [[PDF]](https://arxiv.org/abs/2512.22256) [[Artifacts]](https://github.com/ZhonghaoJiang/Awesome-Issue-Solving)
+
+
 * <span style="color:#0b5394;">**[Preprint]**</span>
   **NoCode-bench: A Benchmark for Evaluating Natural Language-Driven Feature Addition** \
   Le Deng*, <u>Zhonghao Jiang*</u>, Jialun Cao, Michael Pradel, Zhongxin Liu \

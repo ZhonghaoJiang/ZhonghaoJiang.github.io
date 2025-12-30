@@ -13,6 +13,7 @@ I am very fortunate to be advised by **_Distinguished Research Fellow_** _Zhongx
 
 📰 News
 ======
+* 📅 **2025.12**: Check out our [**survey**](https://arxiv.org/abs/2512.22256) on agentic software issue resolution!
 * 📅 **2025.7**: We release [**NoCode-bench**](https://arxiv.org/pdf/2507.18130). Evaluation your software engineering agents under a more complex scenario [here](https://github.com/NoCode-bench/NoCode-bench)!
 
 📖 Education
