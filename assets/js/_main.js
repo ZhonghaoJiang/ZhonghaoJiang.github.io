@@ -3,6 +3,55 @@
    ========================================================================== */
 
 $(document).ready(function(){
+  var themeStorageKey = 'site-theme';
+  var $root = $(document.documentElement);
+  var $themeToggle = $('.theme-toggle');
+  var $themeMeta = $('meta[name="theme-color"]');
+
+  function themeMetaColor(theme) {
+    return theme === 'dark' ? '#0f0f10' : '#ffffff';
+  }
+
+  function themeIcon(theme) {
+    return theme === 'dark' ? 'fa-sun' : 'fa-moon';
+  }
+
+  function themeLabel(theme) {
+    return theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+  }
+
+  function themeToggleText(theme) {
+    return theme === 'dark' ? 'Light' : 'Dark';
+  }
+
+  function setTheme(theme, persist) {
+    $root.attr('data-theme', theme);
+    document.documentElement.style.colorScheme = theme;
+
+    if ($themeMeta.length) {
+      $themeMeta.attr('content', themeMetaColor(theme));
+    }
+
+    $themeToggle.attr('aria-pressed', theme === 'dark' ? 'true' : 'false');
+    $themeToggle.attr('aria-label', themeLabel(theme));
+    $themeToggle.find('.visually-hidden').text(themeLabel(theme));
+    $themeToggle.find('.theme-toggle__label').text(themeToggleText(theme));
+    $themeToggle.find('i').removeClass('fa-moon fa-sun').addClass(themeIcon(theme));
+
+    if (persist) {
+      try {
+        localStorage.setItem(themeStorageKey, theme);
+      } catch (e) {}
+    }
+  }
+
+  setTheme($root.attr('data-theme') === 'dark' ? 'dark' : 'light', false);
+
+  $themeToggle.on('click', function() {
+    var nextTheme = $root.attr('data-theme') === 'dark' ? 'light' : 'dark';
+    setTheme(nextTheme, true);
+  });
+
   // Sticky footer
   var bumpIt = function() {
       $("body").css("margin-bottom", $(".page__footer").outerHeight(true));

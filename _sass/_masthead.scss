@@ -55,4 +55,40 @@
     padding-right: 2em;
     font-weight: 700;
   }
+
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 0.4rem;
+  height: 2.5rem;
+  padding: 0 0.8rem;
+  min-width: 0;
+  border: 1px solid mix(#fff, $primary-color, 84%);
+  border-radius: 999px;
+  background: mix(#fff, $primary-color, 94%);
+  color: $masthead-link-color;
+  cursor: pointer;
+  font-size: $type-size-6;
+  font-weight: 600;
+  line-height: 1;
+  transition: $global-transition;
+
+  i {
+    font-size: 0.9rem;
+  }
+
+  &:hover,
+  &:focus {
+    color: $masthead-link-color-hover;
+    border-color: mix(#fff, $primary-color, 72%);
+    background: mix(#fff, $primary-color, 88%);
+  }
+}
+
+.theme-toggle__label {
+  display: inline-block;
 }

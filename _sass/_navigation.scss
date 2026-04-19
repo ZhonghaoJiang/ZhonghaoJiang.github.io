@@ -175,6 +175,7 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
+  padding-right: 5.5rem;
   background: $background-color;
 
   a {
@@ -189,7 +190,7 @@
     }
   }
 
-  button {
+  .greedy-nav__toggle {
     position: absolute;
     height: 2.5rem;
     right: 0;
@@ -249,6 +250,18 @@
                 transform: scaleX(1); /* reveal*/
       }
     }
+  }
+
+  .greedy-nav__theme {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 4.75rem;
+    height: 2.5rem;
+    z-index: 50;
   }
 
   .hidden-links {

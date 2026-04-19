@@ -12,7 +12,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  (function() {
+    var root = document.documentElement;
+    root.className = root.className.replace(/\bno-js\b/g, '') + ' js ';
+
+    var theme = 'light';
+
+    try {
+      var storedTheme = localStorage.getItem('site-theme');
+      if (storedTheme === 'dark' || storedTheme === 'light') {
+        theme = storedTheme;
+      }
+    } catch (e) {}
+
+    root.dataset.theme = theme;
+    root.style.colorScheme = theme;
+  })();
 </script>
 
 <!-- For all browsers -->
