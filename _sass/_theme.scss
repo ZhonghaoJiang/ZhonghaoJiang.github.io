@@ -1,0 +1,463 @@
+html[data-theme="dark"] {
+  --theme-bg: #0f0f10;
+  --theme-surface: #171719;
+  --theme-surface-elevated: #212124;
+  --theme-text: #f3eee7;
+  --theme-muted: #c5b9ab;
+  --theme-border: #3c322b;
+  --theme-border-strong: #5a483b;
+  --theme-accent: #f28c38;
+  --theme-accent-hover: #ffb066;
+  --theme-code-bg: #0b0b0c;
+  --theme-overlay: rgba(6, 4, 3, 0.8);
+  --theme-shadow: 0 12px 32px rgba(0, 0, 0, 0.34);
+  background: var(--theme-bg);
+}
+
+html[data-theme="dark"] body {
+  background: var(--theme-bg);
+  color: var(--theme-text);
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+html[data-theme="dark"] .page__title,
+html[data-theme="dark"] .archive__item-title,
+html[data-theme="dark"] .author__name {
+  color: var(--theme-text);
+}
+
+.publication-note {
+  color: #98a16f;
+}
+
+.publication-section-title {
+  color: #6b705c;
+}
+
+.publication-label {
+  color: #0b5394;
+  font-weight: 700;
+}
+
+html[data-theme="dark"] a {
+  color: var(--theme-accent);
+}
+
+html[data-theme="dark"] a:hover,
+html[data-theme="dark"] a:focus {
+  color: var(--theme-accent-hover);
+}
+
+html[data-theme="dark"] .publication-note {
+  color: #e9b47c;
+}
+
+html[data-theme="dark"] .publication-section-title {
+  color: #f2c995;
+}
+
+html[data-theme="dark"] .publication-label {
+  color: #f28c38;
+}
+
+html[data-theme="dark"] u,
+html[data-theme="dark"] ins,
+html[data-theme="dark"] abbr[title],
+html[data-theme="dark"] abbr[data-original-title] {
+  border-bottom-color: var(--theme-muted);
+}
+
+html[data-theme="dark"] blockquote {
+  color: var(--theme-muted);
+  border-left-color: var(--theme-accent);
+}
+
+html[data-theme="dark"] hr,
+html[data-theme="dark"] .page__content h2,
+html[data-theme="dark"] .page__share,
+html[data-theme="dark"] .page__comments-title,
+html[data-theme="dark"] .page__related,
+html[data-theme="dark"] .feature__wrapper,
+html[data-theme="dark"] .page__comments + .pagination,
+html[data-theme="dark"] .page__meta,
+html[data-theme="dark"] .comment:not(:last-child) {
+  border-color: var(--theme-border);
+}
+
+html[data-theme="dark"] .page__meta,
+html[data-theme="dark"] .archive__subtitle,
+html[data-theme="dark"] .breadcrumbs,
+html[data-theme="dark"] .page__footer,
+html[data-theme="dark"] .comment__date,
+html[data-theme="dark"] figcaption,
+html[data-theme="dark"] .footnote,
+html[data-theme="dark"] .footnotes,
+html[data-theme="dark"] .page__related-title,
+html[data-theme="dark"] .page__share-title,
+html[data-theme="dark"] .page__meta-title {
+  color: var(--theme-muted);
+}
+
+html[data-theme="dark"] .masthead {
+  background: rgba(23, 27, 36, 0.92);
+  border-bottom-color: var(--theme-border);
+  backdrop-filter: blur(14px);
+}
+
+html[data-theme="dark"] .greedy-nav {
+  background: transparent;
+}
+
+html[data-theme="dark"] .greedy-nav a {
+  color: var(--theme-text);
+}
+
+html[data-theme="dark"] .greedy-nav .visible-links a:before {
+  background: var(--theme-accent);
+}
+
+html[data-theme="dark"] .greedy-nav .greedy-nav__toggle {
+  background: var(--theme-surface-elevated);
+  color: var(--theme-text);
+  border: 1px solid var(--theme-border);
+}
+
+html[data-theme="dark"] .greedy-nav .greedy-nav__toggle:hover {
+  background: #2c3342;
+}
+
+html[data-theme="dark"] .theme-toggle {
+  color: var(--theme-text);
+  border-color: var(--theme-border);
+  background: var(--theme-surface);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+}
+
+html[data-theme="dark"] .theme-toggle__label {
+  color: inherit;
+}
+
+html[data-theme="dark"] .theme-toggle:hover,
+html[data-theme="dark"] .theme-toggle:focus {
+  color: var(--theme-accent-hover);
+  background: #2c3342;
+  border-color: var(--theme-border-strong);
+}
+
+html[data-theme="dark"] .greedy-nav .hidden-links,
+html[data-theme="dark"] .author__urls,
+html[data-theme="dark"] .toc,
+html[data-theme="dark"] .well,
+html[data-theme="dark"] .modal,
+html[data-theme="dark"] .page__comments-form,
+html[data-theme="dark"] .notice,
+html[data-theme="dark"] .notice--primary,
+html[data-theme="dark"] .notice--info,
+html[data-theme="dark"] .notice--warning,
+html[data-theme="dark"] .notice--success,
+html[data-theme="dark"] .notice--danger,
+html[data-theme="dark"] div.highlighter-rouge,
+html[data-theme="dark"] figure.highlight {
+  background: var(--theme-surface);
+  border-color: var(--theme-border);
+  color: var(--theme-text);
+  box-shadow: var(--theme-shadow);
+}
+
+html[data-theme="dark"] .pagination li a,
+html[data-theme="dark"] .pagination--pager,
+html[data-theme="dark"] table,
+html[data-theme="dark"] thead,
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select,
+html[data-theme="dark"] p > code,
+html[data-theme="dark"] a > code,
+html[data-theme="dark"] li > code,
+html[data-theme="dark"] figcaption > code,
+html[data-theme="dark"] td > code {
+  background: var(--theme-surface);
+  border-color: var(--theme-border);
+  color: var(--theme-text);
+  box-shadow: none;
+}
+
+@include breakpoint($large) {
+  html[data-theme="dark"] .author__urls {
+    background: transparent;
+    border-color: transparent;
+    box-shadow: none;
+  }
+}
+
+html[data-theme="dark"] .greedy-nav .hidden-links a:hover,
+html[data-theme="dark"] .toc__menu a:hover,
+html[data-theme="dark"] .pagination li a:hover,
+html[data-theme="dark"] .pagination--pager:hover {
+  background: rgba(242, 140, 56, 0.14);
+  color: var(--theme-accent-hover);
+}
+
+html[data-theme="dark"] .greedy-nav .hidden-links:before,
+html[data-theme="dark"] .author__urls:before {
+  border-color: var(--theme-border) transparent;
+}
+
+html[data-theme="dark"] .greedy-nav .hidden-links:after,
+html[data-theme="dark"] .author__urls:after {
+  border-color: var(--theme-surface) transparent;
+}
+
+html[data-theme="dark"] .author__avatar img,
+html[data-theme="dark"] .comment__avatar {
+  border-color: var(--theme-border);
+}
+
+html[data-theme="dark"] .page__footer {
+  background: #0b0b0c;
+  border-top-color: var(--theme-border);
+}
+
+html[data-theme="dark"] .page__footer .fas,
+html[data-theme="dark"] .page__footer .fab,
+html[data-theme="dark"] .page__footer .far,
+html[data-theme="dark"] .page__footer .fal,
+html[data-theme="dark"] .social-icons i {
+  color: var(--theme-muted);
+}
+
+html[data-theme="dark"] .social-icons a:hover i,
+html[data-theme="dark"] .social-icons a:focus i {
+  color: var(--theme-accent-hover);
+}
+
+html[data-theme="dark"] .page__taxonomy-item {
+  color: var(--theme-muted);
+  border-color: var(--theme-border);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+html[data-theme="dark"] .page__taxonomy-item:hover {
+  color: var(--theme-accent-hover);
+  background: rgba(242, 140, 56, 0.1);
+}
+
+html[data-theme="dark"] .nav__title,
+html[data-theme="dark"] .toc .nav__title,
+html[data-theme="dark"] .nav__list .active {
+  background: #a9571c;
+  color: #fff7ef;
+}
+
+html[data-theme="dark"] .toc,
+html[data-theme="dark"] .toc__menu a,
+html[data-theme="dark"] .nav__sub-title {
+  color: var(--theme-muted);
+  border-color: var(--theme-border);
+}
+
+html[data-theme="dark"] .nav__list a {
+  color: var(--theme-muted);
+}
+
+html[data-theme="dark"] .nav__list a:hover {
+  color: var(--theme-accent-hover);
+}
+
+html[data-theme="dark"] .archive__subtitle,
+html[data-theme="dark"] .breadcrumbs a,
+html[data-theme="dark"] .page__meta a,
+html[data-theme="dark"] .comment__author a,
+html[data-theme="dark"] .comment__date a,
+html[data-theme="dark"] .page__related a {
+  color: inherit;
+}
+
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select {
+  background: var(--theme-surface-elevated);
+  color: var(--theme-text);
+}
+
+html[data-theme="dark"] input:hover,
+html[data-theme="dark"] textarea:hover,
+html[data-theme="dark"] select:hover,
+html[data-theme="dark"] input:focus,
+html[data-theme="dark"] textarea:focus,
+html[data-theme="dark"] select:focus {
+  border-color: var(--theme-accent);
+}
+
+html[data-theme="dark"] input::placeholder,
+html[data-theme="dark"] textarea::placeholder {
+  color: #8f99aa;
+}
+
+html[data-theme="dark"] thead {
+  background: var(--theme-surface-elevated);
+}
+
+html[data-theme="dark"] td,
+html[data-theme="dark"] th,
+html[data-theme="dark"] tr {
+  border-color: var(--theme-border);
+}
+
+html[data-theme="dark"] p > code,
+html[data-theme="dark"] a > code,
+html[data-theme="dark"] li > code,
+html[data-theme="dark"] figcaption > code,
+html[data-theme="dark"] td > code,
+html[data-theme="dark"] div.highlighter-rouge,
+html[data-theme="dark"] figure.highlight,
+html[data-theme="dark"] .highlight {
+  background: var(--theme-code-bg);
+}
+
+html[data-theme="dark"] div.highlighter-rouge:before,
+html[data-theme="dark"] figure.highlight:before {
+  background: var(--theme-surface-elevated);
+  color: var(--theme-muted);
+}
+
+html[data-theme="dark"] .highlight .c,
+html[data-theme="dark"] .highlight .cm,
+html[data-theme="dark"] .highlight .c1,
+html[data-theme="dark"] .highlight .sb {
+  color: #9d8c7c;
+}
+
+html[data-theme="dark"] .highlight .err,
+html[data-theme="dark"] .highlight .g,
+html[data-theme="dark"] .highlight .l,
+html[data-theme="dark"] .highlight .n,
+html[data-theme="dark"] .highlight .p,
+html[data-theme="dark"] .highlight .ge,
+html[data-theme="dark"] .highlight .go,
+html[data-theme="dark"] .highlight .gp,
+html[data-theme="dark"] .highlight .gs,
+html[data-theme="dark"] .highlight .gt,
+html[data-theme="dark"] .highlight .ld,
+html[data-theme="dark"] .highlight .na,
+html[data-theme="dark"] .highlight .nl,
+html[data-theme="dark"] .highlight .nn,
+html[data-theme="dark"] .highlight .nx,
+html[data-theme="dark"] .highlight .py,
+html[data-theme="dark"] .highlight .w,
+html[data-theme="dark"] .highlight .sd,
+html[data-theme="dark"] .highlight .sh {
+  color: #f3eee7;
+}
+
+html[data-theme="dark"] .highlight .k,
+html[data-theme="dark"] .highlight .o,
+html[data-theme="dark"] .highlight .kn,
+html[data-theme="dark"] .highlight .kp,
+html[data-theme="dark"] .highlight .ow,
+html[data-theme="dark"] .highlight .cp,
+html[data-theme="dark"] .highlight .cs,
+html[data-theme="dark"] .highlight .gi {
+  color: #ffb066;
+}
+
+html[data-theme="dark"] .highlight .x,
+html[data-theme="dark"] .highlight .kc,
+html[data-theme="dark"] .highlight .no,
+html[data-theme="dark"] .highlight .ne,
+html[data-theme="dark"] .highlight .ni,
+html[data-theme="dark"] .highlight .gh,
+html[data-theme="dark"] .highlight .gu,
+html[data-theme="dark"] .highlight .se {
+  color: #f7c98f;
+}
+
+html[data-theme="dark"] .highlight .kd,
+html[data-theme="dark"] .highlight .kr,
+html[data-theme="dark"] .highlight .nc,
+html[data-theme="dark"] .highlight .nd,
+html[data-theme="dark"] .highlight .nf,
+html[data-theme="dark"] .highlight .nt,
+html[data-theme="dark"] .highlight .nv,
+html[data-theme="dark"] .highlight .bp,
+html[data-theme="dark"] .highlight .vc,
+html[data-theme="dark"] .highlight .vg,
+html[data-theme="dark"] .highlight .vi {
+  color: #f28c38;
+}
+
+html[data-theme="dark"] .highlight .kt,
+html[data-theme="dark"] .highlight .gr,
+html[data-theme="dark"] .highlight .sr {
+  color: #ff9e72;
+}
+
+html[data-theme="dark"] .highlight .m,
+html[data-theme="dark"] .highlight .mf,
+html[data-theme="dark"] .highlight .mh,
+html[data-theme="dark"] .highlight .mi,
+html[data-theme="dark"] .highlight .mo,
+html[data-theme="dark"] .highlight .s,
+html[data-theme="dark"] .highlight .sc,
+html[data-theme="dark"] .highlight .s1,
+html[data-theme="dark"] .highlight .s2,
+html[data-theme="dark"] .highlight .si,
+html[data-theme="dark"] .highlight .sx,
+html[data-theme="dark"] .highlight .ss,
+html[data-theme="dark"] .highlight .il,
+html[data-theme="dark"] .highlight .gd {
+  color: #ffd1a3;
+}
+
+html[data-theme="dark"] .notice,
+html[data-theme="dark"] .notice--primary,
+html[data-theme="dark"] .notice--info,
+html[data-theme="dark"] .notice--warning,
+html[data-theme="dark"] .notice--success,
+html[data-theme="dark"] .notice--danger {
+  box-shadow: none;
+}
+
+html[data-theme="dark"] .notice,
+html[data-theme="dark"] .notice--primary,
+html[data-theme="dark"] .notice--info {
+  background: rgba(242, 140, 56, 0.12);
+  border: 1px solid rgba(242, 140, 56, 0.28);
+}
+
+html[data-theme="dark"] .notice--warning {
+  background: rgba(247, 201, 143, 0.14);
+  border: 1px solid rgba(247, 201, 143, 0.28);
+}
+
+html[data-theme="dark"] .notice--success {
+  background: rgba(224, 170, 99, 0.12);
+  border: 1px solid rgba(224, 170, 99, 0.26);
+}
+
+html[data-theme="dark"] .notice--danger {
+  background: rgba(201, 109, 70, 0.14);
+  border: 1px solid rgba(201, 109, 70, 0.3);
+}
+
+html[data-theme="dark"] .notice a,
+html[data-theme="dark"] .notice--primary a,
+html[data-theme="dark"] .notice--info a,
+html[data-theme="dark"] .notice--warning a,
+html[data-theme="dark"] .notice--success a,
+html[data-theme="dark"] .notice--danger a {
+  color: var(--theme-accent-hover);
+}
+
+html[data-theme="dark"] .show-modal:before {
+  background: var(--theme-overlay);
+}
+
+html[data-theme="dark"] .modal__actions {
+  border-top-color: var(--theme-border);
+}
