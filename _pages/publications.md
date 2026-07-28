@@ -20,7 +20,6 @@ redirect_from:
   Zhongxin Liu, <u>Zhonghao Jiang</u>, Zhifan Ye, Haoye Wang, Jiakun Liu, Xiaoxue Ren \
   [[PDF]]() [[Code]]()
 
-
 * <span class="publication-label">[ASE'26]</span>
   **Doc2Feat-bench: Evaluating Documentation-Driven Feature Addition** \
   <u>Zhonghao Jiang</u>, Le Deng, Jialun Cao, Michael Pradel, Zhongxin Liu \
