@@ -15,10 +15,16 @@ redirect_from:
   <u>Zhonghao Jiang</u>, David Lo, Zhongxin Liu \
   [[PDF]](https://arxiv.org/abs/2512.22256) [[Artifacts]](https://github.com/ZhonghaoJiang/Awesome-Issue-Solving)
 
+* <span class="publication-label">[ASE'26]</span>
+  **Effective and Efficient Context Retrieval via Partial Dependency Graph for Repository-Level Code Generation** \
+  Zhongxin Liu, <u>Zhonghao Jiang</u>, Zhifan Ye, Haoye Wang, Jiakun Liu, Xiaoxue Ren \
+  [[PDF]]() [[Code]]()
 
-* <span class="publication-label">[Preprint]</span>
-  **NoCode-bench: A Benchmark for Evaluating Natural Language-Driven Feature Addition** \
-  Le Deng*, <u>Zhonghao Jiang*</u>, Jialun Cao, Michael Pradel, Zhongxin Liu \
+
+* <span class="publication-label">[ASE'26]</span>
+  **Doc2Feat-bench: Evaluating Documentation-Driven Feature Addition** \
+  <u>Zhonghao Jiang</u>, Le Deng, Jialun Cao, Michael Pradel, Zhongxin Liu \
+  <span class="small">🌟ArXiv Preprint: NoCode-bench: A Benchmark for Evaluating Natural Language-Driven Feature Addition</span> \
   [[PDF]](https://arxiv.org/pdf/2507.18130) [[Code]](https://github.com/NoCode-bench/NoCode-bench) [[Leaderboard]](https://nocodebench.org/)
 
 * <span class="publication-label">[ASE'25]</span>
