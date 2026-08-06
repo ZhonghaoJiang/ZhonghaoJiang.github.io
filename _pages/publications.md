@@ -19,14 +19,14 @@ redirect_from:
   **Effective and Efficient Context Retrieval via Partial Dependency Graph for Repository-Level Code Generation** \
   Zhongxin Liu, <u>Zhonghao Jiang</u>, Zhifan Ye, Haoye Wang, Jiakun Liu, Xiaoxue Ren \
   The 41th IEEE/ACM International Conference on Automated Software Engineering (ASE 2026) \
-  [[PDF]]() [[Code]]()
+  [[PDF]](https://arxiv.org/pdf/2608.01927v1) [[Code]](https://github.com/ZhonghaoJiang/DyCoder)
 
 * <span class="publication-label">[ASE'26]</span>
   **Doc2Feat-bench: Evaluating Documentation-Driven Feature Addition** \
   <u>Zhonghao Jiang</u>, Le Deng, Jialun Cao, Michael Pradel, Zhongxin Liu \
   The 41th IEEE/ACM International Conference on Automated Software Engineering (ASE 2026) \
   <span class="small">🌟ArXiv Preprint: NoCode-bench: A Benchmark for Evaluating Natural Language-Driven Feature Addition</span> \
-  [[PDF]](https://arxiv.org/pdf/2507.18130) [[Code]](https://github.com/NoCode-bench/NoCode-bench) [[Leaderboard]](https://nocodebench.org/)
+  [[PDF]](https://arxiv.org/pdf/2507.18130v4) [[Code]](https://github.com/Doc2Feat-bench/Doc2Feat-bench) [[Leaderboard]](https://nocodebench.org/)
 
 * <span class="publication-label">[ASE'25]</span>
   **Issue Localization via LLM-Driven Iterative Code Graph Searching** \
