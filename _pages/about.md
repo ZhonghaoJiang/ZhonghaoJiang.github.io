@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a first year Ph.D student from College of Computer Science and Technology, Zhejiang University. 
+I'm a second year Ph.D student from College of Computer Science and Technology, Zhejiang University. 
 My research interest mainly lies on Intelligent Software Engineering (AI4SE), especially in Agentic AI Coding and Training Software Engineering Agents.
 
 I am very fortunate to be advised by **_Distinguished Research Fellow_** _Zhongxin Liu_ of ZJU-CTAG Lab from College of Computer Science and Technology, Zhejiang University. 
@@ -15,6 +15,7 @@ I was advised by **_Prof._** _Meng Yan_ from School of Big Data and Software Eng
 
 📰 News
 ======
+* 📅 **2026.9**: Our [**survey**](https://arxiv.org/abs/2512.22256) about agentic issue resolution has been accepted by ACM Computing Survey!
 * 📅 **2025.12**: Check out our [**survey**](https://arxiv.org/abs/2512.22256) on agentic software issue resolution!
 * 📅 **2025.7**: We release [**Doc2Feat-bench**](https://arxiv.org/pdf/2507.18130v4). Evaluation your software engineering agents under a more complex scenario [here](https://github.com/Doc2Feat-bench/Doc2Feat-bench)!
 
@@ -22,6 +23,10 @@ I was advised by **_Prof._** _Meng Yan_ from School of Big Data and Software Eng
 ======
 * 🎓 Ph.D Student in Computer Science and Technology, Zhejiang University, 2030(expected)
 * 🏫 B.S. in Software Engineering, Chongqing University, 2025
+
+🤝 Service
+======
+* 📝 Reviewer, IEEE Transactions on Software Engineering (TSE)
 
 
 

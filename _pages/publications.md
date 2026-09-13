@@ -10,7 +10,7 @@ redirect_from:
 
 <h3 class="publication-section-title">Full Papers</h3>
 
-* 📌 <span class="publication-label">[Preprint]</span>
+* 📌 <span class="publication-label">[CSUR' 26]</span>
   **Agentic Software Issue Resolution with Large Language Models: A Survey** \
   <u>Zhonghao Jiang</u>, David Lo, Zhongxin Liu \
   [[PDF]](https://arxiv.org/abs/2512.22256) [[Artifacts]](https://github.com/ZhonghaoJiang/Awesome-Issue-Solving)
