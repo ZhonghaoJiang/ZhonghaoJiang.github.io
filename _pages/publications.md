@@ -16,6 +16,16 @@ redirect_from:
   ACM Computing Surveys (CSUR 2026) \
   [[PDF]](https://arxiv.org/abs/2512.22256) [[Artifacts]](https://github.com/ZhonghaoJiang/Awesome-Issue-Solving)
 
+* <span class="publication-label">[Preprint]</span>
+  **Well-Specified and Well-Tested? Assessing SWE-bench-Style Datasets with a Self-Evolving Agent** \
+  <u>Zhonghao Jiang</u>\*, Xuyang Zheng\*, Yanfu Yan, Zhongxin Liu, Lingfeng Bao, Shuiguang Deng \
+  [[PDF]](https://arxiv.org/abs/2610.39417) [[Code]](https://github.com/ZJU-CTAG/ExLabel)
+
+* <span class="publication-label">[Preprint]</span>
+  **From Faulty Claims to Incorrect Patches: An Empirical Study of Task-Grounded Reasoning in Coding Agents** \
+  You Wang, Jinjun Huang, <u>Zhonghao Jiang</u>, Jialun Cao, Jiachi Chen, Zhongxin Liu \
+  [[PDF]](https://arxiv.org/abs/2610.32338) [[Code]](https://zenodo.org/records/23119427)
+
 * <span class="publication-label">[ASE'26]</span>
   **Effective and Efficient Context Retrieval via Partial Dependency Graph for Repository-Level Code Generation** \
   Zhongxin Liu, <u>Zhonghao Jiang</u>, Zhifan Ye, Haoye Wang, Jiakun Liu, Xiaoxue Ren \
