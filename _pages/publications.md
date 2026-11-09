@@ -26,6 +26,11 @@ redirect_from:
   You Wang, Jinjun Huang, <u>Zhonghao Jiang</u>, Jialun Cao, Jiachi Chen, Zhongxin Liu \
   [[PDF]](https://arxiv.org/abs/2610.32338) [[Code]](https://zenodo.org/records/23119427)
 
+* <span class="publication-label">[Preprint]</span>
+  **How Agent Skills Evolve: A Large-Scale Empirical Study of Skills on GitHub** \
+  Jinjun Huang, Jialun Cao, Junxiao Han, <u>Zhonghao Jiang</u>, Shing-Chi Cheung, Zhongxin Liu \
+  [[PDF]](https://arxiv.org/abs/2611.04456)
+
 * <span class="publication-label">[ASE'26]</span>
   **Effective and Efficient Context Retrieval via Partial Dependency Graph for Repository-Level Code Generation** \
   Zhongxin Liu, <u>Zhonghao Jiang</u>, Zhifan Ye, Haoye Wang, Jiakun Liu, Xiaoxue Ren \
